@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe9c5;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.container-fluid{
+    background-color: #f5a7a7;
+    height: 700px;
+    font-size: 20px;
+}
+.navbar{
+    font-size: 35px;
+    
+}
+.navbar-nav li{
+    padding: 28px;
+}
+.dp-logo{
+    width: 100px;
+    border-radius: 100%;
+}
+.intro h1{
+    margin-top: 100px;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    text-shadow: #f4f4f4 3px 3px;
+}
+/* about section */
+#about-heading{
+    font-size: 50px;
+    font-weight: bolder; 
+    padding-top: 3%;
+    padding-bottom: 2%;
+    
+}
+.about-me{
+    
+    font-size: 30px;
+    line-height: 2.5rem;
+}
+.work{
+    height: 500px;
+    background-color: #f5a7a7;
+    padding:5% 15%;
+}
+.work h2{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+.work p{
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+.work hr{
+    width: 5%;
+    padding:6%;
+    border-style: dotted;
+    border-width: 3px;
+    border-top: 5px dotted #f4f4f4;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 7%;
+}
+.connect{
+    background-color: #f5a7a7;
+    height: 250px;
+    padding: 5%;
+
+}
+.connect h3{
+    font-size: 30px;
+}
+
+.connect a{
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+footer{
+    height: 150px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query */
+@media (max-width:450px){
+    .dp-logo{
+        width: 20%;
+    }
+    .about-me{
+        font-size: 20px;
+        
+    }
+    .work h2{
+        font-size:30px;
+
+    }
+    .work p{
+        font-size: 1.5rem;
+    }
+    .container-fluid{
+        height: 820px;
+    }
+    .navbar{
+        font-size: 1.5rem;
+        line-height: 0.5rem;
+        line-break: 0.5rem;
+    }
+    .intro h1{
+        margin-top: 150px;
+        font-size: 60px;
+        font-weight: bold;
+        text-shadow: #f4f4f4 1px 1px;
+    }
+    .connect{
+        height: 200px;
+    }
+   
+}
